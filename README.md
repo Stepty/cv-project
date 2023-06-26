@@ -1,1 +1,1 @@
-# cv-project
+# CV Creator App
