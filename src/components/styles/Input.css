@@ -1,0 +1,17 @@
+form {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 2rem;
+}
+form p{
+    margin: 0;
+}
+form input {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
+}

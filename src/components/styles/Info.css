@@ -1,0 +1,37 @@
+.general-info {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template: 
+        "name name name"
+        "email phone links";
+    padding: 20px 100px;
+}
+#name {
+    grid-area: name;
+    width: 445px;
+}
+#name p {
+    font-size: 3rem;
+}
+#email {
+    grid-area: email;
+}
+#email p {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+#phone {
+    grid-area: phone;
+}
+#phone p {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+#links {
+    grid-area: links;
+}
+#links p {
+    width: 200px;
+}
