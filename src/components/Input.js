@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './styles/Input.css'
+
 export default function Input( {id, info, setInfo, placeholder} ) {
     const [ display, setDisplay ] = useState('Form');
 

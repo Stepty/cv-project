@@ -1,0 +1,7 @@
+.education-info {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    padding: 20px 100px;
+}
